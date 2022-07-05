@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/old-white-background.jpg);
+}
+
+main .form-area {
+  width: 500px;
+  height: 620px;
+  -webkit-box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+  background-color: bisque;
+}
+
+main .form-area h2 {
+  text-align: center;
+}
+
+main .form-area form .inp {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+main .form-area form .inp .input {
+  border: 1px solid green;
+  outline: none;
+}
+
+main .form-area form .height-input {
+  width: 69px;
+}
+
+main .form-area form .select-gender {
+  margin-left: 20px;
+  margin-bottom: 8px !important;
+  display: inline-block;
+}
+
+main .form-area form .select-edu-degree {
+  margin-left: 20px;
+  margin-bottom: 8px !important;
+  display: inline-block;
+}
+
+main .form-area form .btn-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .form-area form .btn-area button {
+  width: 80px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

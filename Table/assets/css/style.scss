@@ -1,0 +1,26 @@
+@keyframes anim{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+h1{
+    color: red;
+    animation: anim alternate infinite 10s;
+}
+table{
+    border: 1px solid black;
+    th{
+        border: 1px solid black;
+        background-color: pink;
+    }
+    td{
+        border: 1px solid black;
+        background-color: bisque;
+    }
+}

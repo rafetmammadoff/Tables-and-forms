@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image:url(./img/old-white-background.jpg);
+
+    .form-area{
+        width: 500px;
+        height: 620px;
+        box-shadow: 0px 0px 32px 4px rgba(0,0,0,0.35);
+        border-radius: 30px;
+        background-color: bisque;
+        h2{
+            text-align: center;
+        }
+        form{
+            .inp{
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 15px;
+                .input{
+                    border: 1px solid green;
+                    outline: none;
+                }
+            }
+            .height-input{
+                width: 69px;
+            }
+            .select-gender{
+                margin-left: 20px;
+                margin-bottom: 8px !important;
+                display: inline-block;
+            }
+            .select-edu-degree{
+                margin-left: 20px;
+                margin-bottom: 8px !important;
+                display: inline-block;
+            }
+            
+            .btn-area{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                button{
+                    width: 80px;
+                    height: 30px;
+                    margin-bottom: 10px;
+                    border: none;
+                    border-radius: 10px;
+                    color: white;
+                    background-color: green;
+                }
+            }
+        }
+        
+    }
+}

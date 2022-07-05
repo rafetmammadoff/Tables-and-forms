@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="form-area">
+            <h2>Application form</h2>
+            <form>
+                <div class="name-inp inp">
+                    <label for="name">Ad:</label><br>
+                    <input class="input" required type="text" id="name">
+                </div>
+                <div class="surname-inp inp">
+                    <label for="surname">Soyad:</label><br>
+                    <input class="input" required type="text" id="surname">
+                </div>
+                <div class="password-inp inp">
+                    <label for="password">Sifre:</label><br>
+                    <input class="input" required type="text" id="password">
+                </div>
+                <span class="select-gender">Cinsinizi secin:</span>
+                <div class="gender-inp inp">
+                    <label for="male">K</label>
+                    <input class="input" type="radio" name="gender" id="male">
+                    <label for="female">Q</label>
+                    <input class="input" type="radio" name="gender" id="female">
+                </div>
+                <span class="select-edu-degree">Bitirdiyiniz tehsil derecelerini secin:</span>
+                <div class="edu-degree-inp inp">
+                    <input class="input" type="checkbox" id="medium">
+                    <label for="medium">Orta</label><br>
+
+                    <input class="input" type="checkbox" id="bachelors">
+                    <label for="bachelors">Bakalavr</label><br>
+
+                    <input class="input" type="checkbox" id="master">
+                    <label for="master">Magistr</label><br>
+
+                    <input class="input" type="checkbox" id="doctor">
+                    <label for="doctor">Doctor</label><br>
+                </div>
+                <div class="age-height-weight">
+                        <div class="age-inp inp">
+                            <label for="age">Yas:</label><br>
+                            <input class="input" type="number" min="0" max="120" id="age">
+                        </div>
+                        <div class="height-inp inp">
+                            <label for="height">Boy:</label><br>
+                            <input class="height-input input" type="text" maxlength="6" id="height">
+                        </div>
+                        <div class="weight-inp inp">
+                            <label for="weight">Ceki:</label><br>
+                            <input class="input" type="number" min="1" max="500" id="weight">
+                        </div>
+                </div>
+                <div class="btn-area">
+                    <button type="submit">Tesdiqle</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
